@@ -10,14 +10,12 @@ header{
     background-color: pink;
     display: flex;
     color: fuchsia;
-    font-size: 70px;
     text-transform: capitalize;
     padding: 20px;
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logo{
-    float: center;
     font-size: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
@@ -26,7 +24,6 @@ header{
 ul li{
     list-style: none;
     display: inline;
-    /*float: right;*/
 }
 
 ul a{
@@ -34,22 +31,20 @@ ul a{
     text-decoration: none;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    float: right;
     font-size: 19px;
     padding: 10px;
-    position: ;
+    position    
 }
 
 ul li :hover{
     color: black;
-    
 }
 
 main{
     height: auto;
     width: 100%;
     background-color: pink;
-    /*background-position: center;*/
+    background-position: center;
     padding: 5%;
 }
 
@@ -61,15 +56,32 @@ main{
     text-align:justify;
 }
 
-
-
 .gal{
     width: 100%;
     border: 2px solid fuchsia;
     padding: 0px;
-    
 }
 
+.boton{
+    background-color: fuchsia;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boton:hover{
+    color: black;
+}
+
+h1{
+    color: fuchsia;
+    text-align: left;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
 
 h2{
     background-color: pink;
@@ -149,23 +161,14 @@ footer a{
 }
 
 
-
-
 @media only screen and (min-width:480px){
     .galeria{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, 200px);
     }
     
-    .nosotros{
-        display: flex;
-    }
-
-    .nleft, .nright{
-        width: 50%;
 }
 
-}
 @media only screen and (min-width:768px) and (max-width:1024px){
     .galeria{
         grid-template-columns: repeat(3, 1fr)
