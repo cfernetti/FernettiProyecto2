@@ -4,41 +4,45 @@
     box-sizing: border-box;
 }
 
-header{
-    height: auto;
-    width: 100%;
-    background-color: pink;
-    display: flex;
-    color: fuchsia;
+.navbar{
+    background-color: palevioletred;
+    font-size: 25px;
     text-transform: capitalize;
-    padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.logo{
-    font-size: 80px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
+.navbar-brand{
+    font-size: 50px;
+    color: fuchsia !important;
 }
 
-ul li{
-    list-style: none;
-    display: inline;
-}
-
-ul a{
-    color: fuchsia;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 19px;
-    padding: 10px;
-    position    
-}
-
-ul li :hover{
+.navbar span{
     color: black;
+    font-size: 50px;
 }
+
+.nav-link{
+    color: fuchsia !important;
+    padding-left: 20px !important;
+}
+
+.nav-link:hover{
+    color: black !important;
+    font-weight: bold;
+    background-color: pink ;
+
+}
+
+.navbar-toggler{
+    border: none
+}
+
+.fa-bars{
+    color: fuchsia;
+}
+
+
+
+
 
 main{
     height: auto;
@@ -147,8 +151,8 @@ footer{
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 19px;
-    background-color:pink;
+    font-size: 25px;
+    background-color:palevioletred;
     color: fuchsia;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -166,7 +170,6 @@ footer a{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, 200px);
     }
-    
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px){
