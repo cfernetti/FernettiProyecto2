@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
+$color1: palevioletred;
+$color2: fuchsia;
+$color3: pink;
+
 .navbar{
-    background-color: palevioletred;
+    background-color: $color1;
     font-size: 25px;
     text-transform: capitalize;
 }
 
 .navbar-brand{
     font-size: 50px;
-    color: fuchsia !important;
+    color: $color2 !important;
 }
 
 .navbar span{
@@ -21,14 +25,14 @@
 }
 
 .nav-link{
-    color: fuchsia !important;
+    color: $color2 !important;
     padding-left: 20px !important;
 }
 
 .nav-link:hover{
     color: black !important;
     font-weight: bold;
-    background-color: pink ;
+    background-color: $color3 ;
 
 }
 
@@ -37,7 +41,7 @@
 }
 
 .fa-bars{
-    color: fuchsia;
+    color: $color2;
 }
 
 
@@ -47,7 +51,7 @@
 main{
     height: auto;
     width: 100%;
-    background-color: pink;
+    background-color: $color3;
     background-position: center;
     padding: 5%;
 }
@@ -62,12 +66,12 @@ main{
 
 .gal{
     width: 100%;
-    border: 2px solid fuchsia;
+    border: 2px solid $color2;
     padding: 0px;
 }
 
 .boton{
-    background-color: fuchsia;
+    background-color: $color2;
     padding: 10px 20px;
     color: white;
     text-decoration: none;
@@ -79,7 +83,7 @@ main{
 }
 
 h1{
-    color: fuchsia;
+    color: $color2;
     text-align: left;
     padding: 20px;
     font-size: 25px;
@@ -88,8 +92,8 @@ h1{
 }
 
 h2{
-    background-color: pink;
-    color: fuchsia;
+    background-color: $color3;
+    color: $color2;
     text-align: center;
     padding: 20px;
     font-size: 25px;
@@ -98,7 +102,7 @@ h2{
 .galeria{
     width:100%;
     height: auto;
-    background-color: pink;
+    background-color: $color3;
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr;
@@ -108,7 +112,7 @@ h2{
 .item{
     height: 200px;
     width: 100%;
-    border: 2px solid fuchsia;
+    border: 2px solid $color2;
     background-color: #444;
     background-size: cover;
     background-position: center;
@@ -152,15 +156,15 @@ footer{
     height: auto;
     text-align: center;
     font-size: 25px;
-    background-color:palevioletred;
-    color: fuchsia;
+    background-color:$color1;
+    color: $color2;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
 }
 
 footer a{
-    color: fuchsia;
+    color: $color2;
     letter-spacing: 15px;
 }
 
