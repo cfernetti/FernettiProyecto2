@@ -70,28 +70,28 @@
   background-size: cover;
 }
 .galeria1 .art .art-img1 {
-  background-image: url(/img/img1.jpeg);
+  background-image: url(../img/img1.jpeg);
 }
 .galeria1 .art .art-img2 {
-  background-image: url(/img/img2.jpeg);
+  background-image: url(../img/img2.jpeg);
 }
 .galeria1 .art .art-img3 {
-  background-image: url(/img/img3.jpeg);
+  background-image: url(../img/img3.jpeg);
 }
 .galeria1 .art .art-img4 {
-  background-image: url(/img/img4.jpeg);
+  background-image: url(../img/img4.jpeg);
 }
 .galeria1 .art .art-img5 {
-  background-image: url(/img/img5.jpeg);
+  background-image: url(../img/img5.jpeg);
 }
 .galeria1 .art .art-img6 {
-  background-image: url(/img/img6.jpeg);
+  background-image: url(../img/img6.jpeg);
 }
 .galeria1 .art .art-img7 {
-  background-image: url(/img/img7.jpeg);
+  background-image: url(../img/img7.jpeg);
 }
 .galeria1 .art .art-img8 {
-  background-image: url(/img/img8.jpeg);
+  background-image: url(../img/img8.jpeg);
 }
 .galeria1 .art:hover {
   background-color: fuchsia;
