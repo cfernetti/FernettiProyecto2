@@ -13,21 +13,28 @@ $color4: black;
     background-color: $color1;
     font-size: 25px;
     text-transform: capitalize;
+    display: flex;
 }
 
 .navbar-brand{
-    font-size: 50px;
-    color: $color2 !important;
+    font-size: 35px;
+    color: $color4 !important;
+    display: flex;
+    justify-content: space-around;
 }
 
 .navbar span{
     color: $color4;
-    font-size: 50px;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .nav-link{
-    color: $color2 !important;
+    color: $color4 !important;
     padding-left: 5px !important;
+    display: flex;
+    justify-content: space-around;
 }
 
 .nav-link:hover{
@@ -37,6 +44,7 @@ $color4: black;
     transition: all 0.8s;
     border-radius: 10px;
     box-shadow: 0 0 5px 2px $color4;
+    padding: 1px;
 
 }
 
@@ -48,10 +56,40 @@ $color4: black;
     color: $color2;
 }
 
+.fotopao{
+    width: 100%;
+    min-height: 600px;
+    background-color: $color3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 20px;
+
+    .art{
+        height: 400px;
+        width: 270px;
+        background-color: white;
+        border: 2px solid $color2;
+        padding: 10px;
+        box-shadow: inset 0 0 10px $color2 ;
+
+        .art-img{
+            width: 100%;
+            height: 380px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .art-img9{
+            background-image: url(../img/img-Pao.jpeg);
+        }
+    }
+}
+
 .galeria1{
     width: 100%;
     min-height: 600px;
-    background-color: color3;
+    background-color: $color3;
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
@@ -61,17 +99,13 @@ $color4: black;
         height: 280px;
         width: 250px;
         background-color: white;
-        border: 2px solid $color4;
-        font-size: 50px;
-        text-align: center;
-        text-transform: capitalize;
-        font-weight: bold;
+        border: 2px solid $color2;
         padding: 4px;
         box-shadow: inset 0 0 10px $color4 ;
 
         .art-img{
-            width: 100%;
             height: 270px;
+            width: 100%;
             background-position: center;
             background-size: cover;
         }
@@ -132,10 +166,9 @@ main{
     padding: 0px;
 }
 
-
 h1{
     color: $color2;
-    text-align: left;
+    text-align: center;
     padding: 20px;
     font-size: 25px;
     text-transform: capitalize;
@@ -145,10 +178,11 @@ h1{
 h2{
     background-color: $color3;
     color: $color2;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-transform: capitalize;
 }
 
 h3{
@@ -214,14 +248,14 @@ footer{
     text-align: center;
     font-size: 25px;
     background-color:$color1;
-    color: $color2;
+    color: $color4;
     text-transform: capitalize;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
 }
 
 footer a{
-    color: $color2;
+    color: $color4;
     letter-spacing: 15px;
 }
 
